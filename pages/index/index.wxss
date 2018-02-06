@@ -1,0 +1,27 @@
+/**index.wxss**/
+.speed button {
+    margin-top:10px;
+}
+.speed input {
+  text-align: center;
+}
+.scale {
+  font-size: 120px;
+  padding: 0;
+}
+.scale .notice {
+  font-size: 80px;
+  text-align: center;
+}
+.start {
+   color: red; 
+}
+.end {
+   color: #8d8d8d; 
+}
+
+.tip {
+  position: fixed;
+  bottom: 20px;
+  color: #8d8d8d
+}
