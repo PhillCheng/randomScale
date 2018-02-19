@@ -1,6 +1,5 @@
 <!--pages/tip/tip.wxml-->
 <view class="container">
   <text>如果此软件对您有帮助，还希望打赏一些，\n 凑个租服务器的钱。多谢！</text>
-  <image style="width: 250px; height: 250px; margin-top:10px" src="http://www.jckxyjy.com/tip.png"></image>
-     
+  <image style="width: 250px; height: 250px; margin-top:10px" src="./image/tip.png"></image>
 </view>
