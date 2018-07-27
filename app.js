@@ -9,6 +9,7 @@ App({
     });
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    openAudio: true
   }
 })

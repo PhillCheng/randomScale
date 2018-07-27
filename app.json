@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/tip/tip"
+    "pages/tip/tip",
+    "pages/settings/settings"
   ],
   "window": {
     "backgroundTextStyle": "light",

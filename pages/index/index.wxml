@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="speed">
-    <input type='digit' bindinput="bindSpeedInput" placeholder='速度 (默认2秒)' value='{{speed}}' placeholder-style="text-align: center" />
+    <input type='digit' bindinput="bindSpeedInput" placeholder='点击修改速度 (默认2秒)' value='{{speed}}' placeholder-style="text-align: center" />
     <button type="{{buttonStyle}}"  bindtap="buttonTap" disabled="{{buttonDisabled}}">{{buttonState}}</button>
   </view>
   <!--音阶显示位置 -->
@@ -10,5 +10,8 @@
     <view >{{currentScale}}</view>
   </view>
   <!--打赏-->
-  <view class="tip" bindtap="goTip">打赏</view>
+  <view class="footer" >
+    <text bindtap="goSettings">设置</text>
+    <text bindtap="goTip">打赏</text>
+  </view>
 </view>

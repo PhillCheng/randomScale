@@ -46,7 +46,7 @@ Page({
   },
   //开始倒计时
   startButton: function() {
-    //如果用户没有输入数字，系统默认4秒一次
+    //如果用户没有输入数字，系统默认2秒一次
     let speed = this.data.speed;
     if (speed == null || speed == 0 || speed == undefined){//非空
       this.setData({
@@ -75,7 +75,7 @@ Page({
     }
     //按钮置灰
     this.setData({
-      buttonState: '准备倒计时',
+      buttonState: '准备倒计时...',
       buttonDisabled: true,
     });
     //进入倒计时
@@ -148,8 +148,16 @@ Page({
   },
   // 自动播放
   playAudio: function(fileName){
-    innerAudioContext.src = '/audio/' + fileName +'.mp3';
-    innerAudioContext.play();
+    if (app.globalData.openAudio){
+      innerAudioContext.src = '/audio/' + fileName + '.mp3';
+      innerAudioContext.play();
+    }
+  },
+  // 去设置页面
+  goSettings: function(){
+    wx.navigateTo({
+      url: '../settings/settings'
+    });
   }
 
 })

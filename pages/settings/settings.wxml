@@ -1,0 +1,10 @@
+  <view class="page-section">
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_switch">
+          <view class="weui-cell__bd">开启声音</view>
+          <view class="weui-cell__ft">
+            <switch checked="{{isChecked}}" bindchange="switchChange"/>
+          </view>
+        </view>
+      </view>
+  </view>
