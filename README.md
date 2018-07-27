@@ -1,5 +1,6 @@
 # 随机音阶练习器-微信小程序
-randomScale
+
+![小程序码](https://github.com/PhillCheng/imagStore/blob/master/randomScale/randomScale.jpg)
 
 
 # 用途
